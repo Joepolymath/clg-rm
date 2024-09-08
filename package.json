@@ -1,0 +1,30 @@
+{
+  "name": "clg-rm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test && jest"
+  },
+  "bin": {
+    "clg-rm": "./index.js"
+  },
+  "keywords": [
+    "console",
+    "tool",
+    "remove",
+    "log"
+  ],
+  "author": "Joshua Ajagbe",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-typescript": "^7.24.7",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
